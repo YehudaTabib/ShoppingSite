@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>products</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styleProducts.css'>
+    
+</head>
+<body>
+    <div id="main">
+        <div id="div1">
+        <select id="select" class="sort">
+            <option value="">select</option>
+            <option value="name" onclick="byName()">by name</option>
+            <option value="price" onclick="byPrice()">by price</option>
+        </select>
+        <h1 id="title">SV SHOP</h1>
+        <button onclick="sort()" class="sort">sort</button>
+        </div>
+        <div id="breadBut">
+            <button onclick="addBread()" id="prodacte0" class="products">bread     15</button>
+       </div>
+        <div id="milkBut">   
+            <button onclick="addMilk()" id="prodacte1" class="products">milk      23</button>
+        </div>
+        <div id="gumBut">
+            <button onclick="addGum()" id="prodacte2" class="products">gum       3</button>
+        </div>      
+            
+            <button id="buy" onclick="ProgressToThePurchasePageׂׂ()">BUY</button>
+        
+ 
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

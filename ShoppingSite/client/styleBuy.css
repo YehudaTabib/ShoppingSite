@@ -1,0 +1,31 @@
+#main{
+    border: 1px solid none;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(137, 207, 231);
+    margin-left: 600px;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+#buy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#title{
+    margin-left: 140px;
+}
+.total{
+    height: 130px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#button{
+    height: 50px;
+    width: 90px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    margin-left: 160px;
+}
